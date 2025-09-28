@@ -1,0 +1,55 @@
+/* Background + font setup */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+/* Neon header text */
+.neon-text {
+  font-size: 3rem;
+  color: #ff1e56;
+  text-shadow: 0 0 5px #ff1e56, 0 0 15px #ff0055, 0 0 25px #ff1e56;
+  margin: 20px 0;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #ffcccc;
+  margin-bottom: 40px;
+}
+
+/* Sections */
+.anime-section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 700px;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid #ff1e56;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff1e56, 0 0 30px #ff0055;
+}
+
+.anime-section h2 {
+  color: #ff4d6d;
+  margin-bottom: 15px;
+}
+
+/* Wallpaper */
+.wallpaper {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff1e56, 0 0 25px #ff0055;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid #ff1e56;
+}
